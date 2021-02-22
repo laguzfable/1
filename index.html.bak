@@ -74,12 +74,12 @@
         data-sticky-shrink="false" data-sticky-class="not-dark" data-sticky-offset="full"
         data-sticky-offset-negative="100">
         <div id="header-wrap">
-          <div class="container" style="margin-top: 32px;">
+          <div class="container">
             <div class="header-row">
               <!-- Logo
 						============================================= -->
               <div id="logo"> <a href="index.html" class="standard-logo" data-dark-logo="LibraryLogo.png"><img
-                    src="LibraryLogo.png" alt="Canvas Logo" style="margin-top: -39px; height: 109px; width: 184px;"></a>
+                    src="LibraryLogo.png" alt="Canvas Logo" style="margin-top: -39px; height: 112px;"></a>
                 <a href="index.html" class="retina-logo" data-dark-logo="one-page/images/canvasone-dark@2x.png"><img
                     src="one-page/images/canvasone@2x.png" alt="Canvas Logo"></a>
               </div>
