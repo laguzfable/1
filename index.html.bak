@@ -2,6 +2,8 @@
 <html dir="ltr" lang="en-US">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body class="stretched side-push-panel" style="   background-color: #000000;">
     <meta name="author" content="SemiColonWeb">
     <!-- Stylesheets
 	============================================= -->
@@ -23,8 +25,6 @@
     <!-- Document Title
 	============================================= -->
     <title>One Page HTML5 Video Dark Overlay | Canvas</title>
-  </head>
-  <body class="stretched side-push-panel">
     <div class="body-overlay"></div>
     <div id="side-panel" class="dark">
       <div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i
@@ -67,14 +67,14 @@
     </div>
     <!-- Document Wrapper
 	============================================= -->
-    <div id="wrapper" class="clearfix">
+    <div id="wrapper" class="clearfix" style="margin-top: -28px;">
       <!-- Header
 		============================================= -->
       <header id="header" class="full-header transparent-header border-full-header dark header-size-custom"
         data-sticky-shrink="false" data-sticky-class="not-dark" data-sticky-offset="full"
         data-sticky-offset-negative="100">
         <div id="header-wrap">
-          <div class="container">
+          <div class="container" style="margin-top: 33px; height: 91px;">
             <div class="header-row">
               <!-- Logo
 						============================================= -->
@@ -162,330 +162,103 @@
               <p class="bottommargin" style="font-size: 16px;"><a href="#" data-scrollto="#section-services"
                   data-easing="easeInOutExpo" data-speed="1250" data-offset="70"
                   class="more-link">Learn more <i class="icon-angle-right"></i></a></p>
-              <div class="clear"></div>
-              <div class="row topmargin-lg mx-auto" style="max-width: 1000px;">
-                <div class="col-md-4 mb-5">
-                  <div class="team">
-                    <div class="team-image"> <img src="one-page/images/team/1.jpg"
-                        alt="John Doe">
-                      <div class="bg-overlay">
-                        <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn"
-                          data-hover-speed="400"> <a href="#" class="social-icon si-borderless si-small si-facebook"
-                            title="Facebook"> <i class="icon-facebook"></i> <i
-                              class="icon-facebook"></i> </a> <a href="#" class="social-icon si-borderless si-small si-twitter"
-                            title="Twitter"> <i class="icon-twitter"></i> <i class="icon-twitter"></i>
-                          </a> <a href="#" class="social-icon si-borderless si-small si-github"
-                            title="Github"> <i class="icon-github"></i> <i class="icon-github"></i>
-                          </a> </div>
-                        <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-                      </div>
-                    </div>
-                    <div class="team-desc team-desc-bg">
-                      <div class="team-title">
-                        <h4>John Doe</h4>
-                        <span>CEO</span></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                  <div class="team">
-                    <div class="team-image"> <img src="one-page/images/team/2.jpg"
-                        alt="Josh Clark">
-                      <div class="bg-overlay">
-                        <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn"
-                          data-hover-speed="400"> <a href="#" class="social-icon si-borderless si-small si-twitter"
-                            title="Twitter"> <i class="icon-twitter"></i> <i class="icon-twitter"></i>
-                          </a> <a href="#" class="social-icon si-borderless si-small si-linkedin"
-                            title="LinkedIn"> <i class="icon-linkedin"></i> <i
-                              class="icon-linkedin"></i> </a> <a href="#" class="social-icon si-borderless si-small si-flickr"
-                            title="Flickr"> <i class="icon-flickr"></i> <i class="icon-flickr"></i>
-                          </a> </div>
-                        <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-                      </div>
-                    </div>
-                    <div class="team-desc team-desc-bg">
-                      <div class="team-title">
-                        <h4>Mary Jane</h4>
-                        <span>Co-Founder</span></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                  <div class="team">
-                    <div class="team-image"> <img src="one-page/images/team/3.jpg"
-                        alt="Mary Jane">
-                      <div class="bg-overlay">
-                        <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn"
-                          data-hover-speed="400"> <a href="#" class="social-icon si-borderless si-small si-twitter"
-                            title="Twitter"> <i class="icon-twitter"></i> <i class="icon-twitter"></i>
-                          </a> <a href="#" class="social-icon si-borderless si-small si-vimeo"
-                            title="Vimeo"> <i class="icon-vimeo"></i> <i class="icon-vimeo"></i>
-                          </a> <a href="#" class="social-icon si-borderless si-small si-instagram"
-                            title="Instagram"> <i class="icon-instagram"></i> <i
-                              class="icon-instagram"></i> </a> </div>
-                        <div class="bg-overlay-bg" data-hover-animate="fadeIn" data-hover-speed="400"></div>
-                      </div>
-                    </div>
-                    <div class="team-desc team-desc-bg">
-                      <div class="team-title">
-                        <h4>Josh Clark</h4>
-                        <span>Sales</span></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-          <div id="section-works" class="page-section pt-0">
-            <div class="section m-0">
-              <div class="container clearfix">
-                <div class="mx-auto center" style="max-width: 900px;">
-                  <h2 class="mb-0 font-weight-light ls1">We create &amp; craft
-                    projects that ooze creativity in every aspect. We try to
-                    create a benchmark in everything we do. Take a moment to
-                    browse through some of our recent completed work.</h2>
-                </div>
-              </div>
+          <div class="team">
+            <div class="team-image"> <img src="one-page/images/team/1.jpg" alt="John Doe">
+              <div class="bg-overlay">
+                <div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn"
+                  data-hover-speed="400" style="top: 0px; left: 0px; width: 474px; height: 589px;">
+                  <a href="#" class="social-icon si-borderless si-small si-facebook"
+                    title="Facebook"> <i class="icon-facebook"></i> <i class="icon-facebook"></i>
+                  </a> <a href="#" class="social-icon si-borderless si-small si-twitter"
+                    title="Twitter"> <i class="icon-twitter"></i> <i class="icon-twitter"></i>
+                  </a> <a href="#" class="social-icon si-borderless si-small si-github"
+                    title="Github"> <i class="icon-github"></i> <i class="icon-github"></i>
+                  </a> </div>
+                <img src="file:///C:/Users/Laguz/Desktop/%E5%A5%B3%E5%B7%AB%E4%BF%B1%E6%A8%82%E9%83%A8/movie.jpg"
+                  alt=""> </div>
             </div>
-            <!-- Portfolio Items
+            <div class="team-desc team-desc-bg">
+              <div class="team-title">
+                <div id="section-works" class="page-section pt-0">
+                  <div class="section m-0">
+                    <div class="container clearfix">
+                      <div class="mx-auto center" style="max-width: 900px;">
+                        <h2 class="mb-0 font-weight-light ls1">We create &amp;
+                          craft projects that ooze creativity in every aspect.
+                          We try to create a benchmark in everything we do. Take
+                          a moment to browse through some of our recent
+                          completed work.</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Portfolio Items
 					============================================= -->
-            <div class="portfolio grid-container row no-gutters">
-              <article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
-                <div class="grid-inner">
-                  <div class="portfolio-image"> <a href="#"> <img src="one-page/images/portfolio/mixed/1.jpg"
-                        alt="Open Imagination"> </a>
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
-                        <div class="portfolio-desc p-0 center" data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-                          <h3><a href="#">Open Imagination</a></h3>
-                          <span><a href="#">Media</a>, <a href="#">Icons</a></span>
-                        </div>
-                      </div>
-                      <div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
-                    </div>
-                  </div>
+                  <div class="topmargin center"><a href="#" class="button button-border button-circle font-weight-semibold">View
+                      More Projects</a></div>
                 </div>
-              </article>
-              <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="grid-inner">
-                  <div class="portfolio-image"> <a href="#"> <img src="one-page/images/portfolio/mixed/2.jpg"
-                        alt="Locked Steel Gate"> </a>
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
-                        <div class="portfolio-desc p-0 center" data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-                          <h3><a href="#">Locked Steel Gate</a></h3>
-                          <span><a href="#">Illustrations</a></span> </div>
-                      </div>
-                      <div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="grid-inner">
-                  <div class="portfolio-image"> <a href="#"> <img src="one-page/images/portfolio/mixed/3.jpg"
-                        alt="Mac Sunglasses"> </a>
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
-                        <div class="portfolio-desc p-0 center" data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-                          <h3><a href="#">Mac Sunglasses</a></h3>
-                          <span><a href="#">Graphics</a>, <a href="#">UI
-                              Elements</a></span> </div>
-                      </div>
-                      <div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
-                <div class="grid-inner">
-                  <div class="portfolio-image"> <a href="#"> <img src="one-page/images/portfolio/mixed/4.jpg"
-                        alt="Open Imagination"> </a>
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
-                        <div class="portfolio-desc p-0 center" data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-                          <h3><a href="#">Open Imagination</a></h3>
-                          <span><a href="#">Media</a>, <a href="#">Icons</a></span>
-                        </div>
-                      </div>
-                      <div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="portfolio-item col-lg-6 col-md-4 col-sm-6 col-12 wide">
-                <div class="grid-inner">
-                  <div class="portfolio-image"> <a href="#"> <img src="one-page/images/portfolio/mixed/5.jpg"
-                        alt="Console Activity"> </a>
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
-                        <div class="portfolio-desc p-0 center" data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-                          <h3><a href="#">Console Activity</a></h3>
-                          <span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
-                        </div>
-                      </div>
-                      <div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="grid-inner">
-                  <div class="portfolio-image"> <a href="#"> <img src="one-page/images/portfolio/mixed/6.jpg"
-                        alt="Open Imagination"> </a>
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
-                        <div class="portfolio-desc p-0 center" data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-                          <h3><a href="#">Open Imagination</a></h3>
-                          <span><a href="#">Media</a>, <a href="#">Icons</a></span>
-                        </div>
-                      </div>
-                      <div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="grid-inner">
-                  <div class="portfolio-image"> <a href="#"> <img src="one-page/images/portfolio/mixed/7.jpg"
-                        alt="Backpack Contents"> </a>
-                    <div class="bg-overlay">
-                      <div class="bg-overlay-content flex-column" data-hover-animate="fadeIn">
-                        <div class="portfolio-desc p-0 center" data-hover-animate="fadeInDownSmall"
-                          data-hover-animate-out="fadeOutDownSmall" data-hover-speed="350">
-                          <h3><a href="#">Backpack Contents</a></h3>
-                          <span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-                        </div>
-                      </div>
-                      <div class="bg-overlay-bg" data-hover-animate="fadeIn"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!-- #portfolio end -->
-            <div class="topmargin center"><a href="#" class="button button-border button-circle font-weight-semibold">View
-                More Projects</a></div>
-          </div>
-          <div id="section-services" class="page-section pt-0">
-            <div class="section m-0">
-              <div class="container clearfix">
-                <div class="mx-auto center" style="max-width: 900px;">
-                  <h2 class="mb-0 font-weight-light ls1">We enjoy working on the
-                    Services &amp; Products we provide as much as you need them.
-                    This help us in delivering your Goals easily. Browse through
-                    the wide range of services we provide.</h2>
-                </div>
-              </div>
-            </div>
-            <div class="row align-items-stretch">
-              <div class="col-lg-4 d-none d-md-block" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: cover;"></div>
-              <div class="col-lg-8">
-                <div class="row align-items-stretch grid-border clearfix">
-                  <div class="col-lg-4 col-md-6 col-padding">
-                    <div class="feature-box fbox-center fbox-dark fbox-plain">
-                      <div class="fbox-icon"> <a href="#"><i class="icon-et-mobile op-gradient-icon"></i></a>
-                      </div>
-                      <div class="fbox-content fbox-content-sm">
-                        <h3>Responsive Framework</h3>
+                <div id="section-services" class="page-section pt-0">
+                  <div class="section m-0">
+                    <div class="container clearfix">
+                      <div class="mx-auto center" style="max-width: 900px;">
+                        <h2 class="mb-0 font-weight-light ls1"><img src="../../../Desktop/%E5%A5%B3%E5%B7%AB%E4%BF%B1%E6%A8%82%E9%83%A8/huffybig.png"
+                            alt=""></h2>
+                        <h2 class="mb-0 font-weight-light ls1">We enjoy working
+                          on the Services &amp; Products we provide as much as
+                          you need them. This help us in delivering your Goals
+                          easily. Browse through the wide range of services we
+                          provide.</h2>
+                        <p><br>
+                        </p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-padding">
-                    <div class="feature-box fbox-center fbox-dark fbox-plain">
-                      <div class="fbox-icon"> <a href="#"><i class="icon-et-presentation op-gradient-icon"></i></a>
-                      </div>
-                      <div class="fbox-content fbox-content-sm">
-                        <h3>Beautifully Presented</h3>
-                      </div>
+                  <div class="section dark m-0">
+                    <div class="mx-auto center" style="max-width: 900px;">
+                      <h2 class="mb-0 font-weight-light ls1">Like Our Services?
+                        Get an <a href="#" data-scrollto="#template-contactform"
+                          data-offset="140" data-easing="easeInOutExpo" data-speed="1250"
+                          class="button button-border button-circle button-light button-large my-0"
+                          style="position: relative; top: -3px;">Instant Quote</a></h2>
                     </div>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-padding">
-                    <div class="feature-box fbox-center fbox-dark fbox-plain">
-                      <div class="fbox-icon"> <a href="#"><i class="icon-et-puzzle op-gradient-icon"></i></a>
-                      </div>
-                      <div class="fbox-content fbox-content-sm">
-                        <h3>Extensively Extendable</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-padding">
-                    <div class="feature-box fbox-center fbox-dark fbox-plain">
-                      <div class="fbox-icon"> <a href="#"><i class="icon-et-gears op-gradient-icon"></i></a>
-                      </div>
-                      <div class="fbox-content fbox-content-sm">
-                        <h3>Powerfully Customizable</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-padding">
-                    <div class="feature-box fbox-center fbox-dark fbox-plain">
-                      <div class="fbox-icon"> <a href="#"><i class="icon-et-genius op-gradient-icon"></i></a>
-                      </div>
-                      <div class="fbox-content fbox-content-sm">
-                        <h3>Geniusly Transformable</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-padding">
-                    <div class="feature-box fbox-center fbox-dark fbox-plain">
-                      <div class="fbox-icon"> <a href="#"><i class="icon-et-hotairballoon op-gradient-icon"></i></a>
-                      </div>
-                      <div class="fbox-content fbox-content-sm">
-                        <h3>Industrial Support</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="section dark m-0">
-              <div class="mx-auto center" style="max-width: 900px;">
-                <h2 class="mb-0 font-weight-light ls1">Like Our Services? Get an
-                  <a href="#" data-scrollto="#template-contactform" data-offset="140"
-                    data-easing="easeInOutExpo" data-speed="1250" class="button button-border button-circle button-light button-large my-0"
-                    style="position: relative; top: -3px;">Instant Quote</a></h2>
-              </div>
-            </div>
-            <div class="section parallax m-0 dark" style="background-image: url('one-page/images/page/testimonials.jpg'); padding: 150px 0;"
-              data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
-              <div class="container clearfix">
-                <div class="row justify-content-end">
-                  <div class="col-md-7">
-                    <div class="fslider testimonial testimonial-full bg-transparent border-0 shadow-none p-0"
-                      data-arrows="false">
-                      <div class="flexslider">
-                        <div class="slider-wrap">
-                          <div class="slide">
-                            <div class="testi-content">
-                              <p>Similique fugit repellendus expedita excepturi
-                                iure perferendis provident quia eaque vero
-                                numquam?</p>
-                              <div class="testi-meta"> Steve Jobs <span>Apple
-                                  Inc.</span> </div>
-                            </div>
-                          </div>
-                          <div class="slide">
-                            <div class="testi-content">
-                              <p>Natus voluptatum enim quod necessitatibus quis
-                                expedita harum provident eos obcaecati id culpa
-                                corporis molestias.</p>
-                              <div class="testi-meta"> Collis Ta'eed <span>Envato
-                                  Inc.</span> </div>
-                            </div>
-                          </div>
-                          <div class="slide">
-                            <div class="testi-content">
-                              <p>Incidunt deleniti blanditiis quas aperiam
-                                recusandae consequatur ullam quibusdam cum
-                                libero illo rerum!</p>
-                              <div class="testi-meta"> John Doe <span>XYZ Inc.</span>
+                  <div class="section parallax m-0 dark" style="background-image: url('one-page/images/page/testimonials.jpg'); padding: 150px 0;"
+                    data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
+                    <div class="container clearfix">
+                      <div class="row justify-content-end">
+                        <div class="col-md-7">
+                          <div class="fslider testimonial testimonial-full bg-transparent border-0 shadow-none p-0"
+                            data-arrows="false">
+                            <div class="flexslider">
+                              <div class="slider-wrap">
+                                <div class="slide">
+                                  <div class="testi-content">
+                                    <p>Similique fugit repellendus expedita
+                                      excepturi iure perferendis provident quia
+                                      eaque vero numquam?</p>
+                                    <div class="testi-meta"> Steve Jobs <span>Apple
+                                        Inc.</span> </div>
+                                  </div>
+                                </div>
+                                <div class="slide">
+                                  <div class="testi-content">
+                                    <p>Natus voluptatum enim quod necessitatibus
+                                      quis expedita harum provident eos
+                                      obcaecati id culpa corporis molestias.</p>
+                                    <div class="testi-meta"> Collis Ta'eed <span>Envato
+                                        Inc.</span> </div>
+                                  </div>
+                                </div>
+                                <div class="slide">
+                                  <div class="testi-content">
+                                    <p>Incidunt deleniti blanditiis quas aperiam
+                                      recusandae consequatur ullam quibusdam cum
+                                      libero illo rerum!</p>
+                                    <div class="testi-meta"> John Doe <span>XYZ
+                                        Inc.</span> </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -494,187 +267,83 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div id="section-blog" class="page-section">
-            <h2 class="text-center text-uppercase font-weight-light ls3 font-body">Recently
-              From the Blog</h2>
-            <div class="section mb-0">
-              <div class="container clearfix">
-                <div class="row posts-md mt-5 col-mb-50 mb-0">
-                  <div class="entry col-md-6">
-                    <div class="grid-inner row align-items-center">
-                      <div class="col-lg-6">
-                        <div class="entry-image"> <a href="#"><img src="one-page/images/blog/1.jpg"
-                              alt="Paris"></a> </div>
-                      </div>
-                      <div class="col-lg-6 mt-3 mt-lg-0"> <span class="before-heading font-normal">Press
-                          &amp; Media</span>
-                        <div class="entry-title nott">
-                          <h3 class="font-weight-normal"><a href="#">Global
-                              Meetup Program is Launching!</a></h3>
-                        </div>
-                        <div class="entry-content"> <a href="#" class="more-link">Read
-                            more <i class="icon-angle-right"></i></a> </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="entry col-md-6">
-                    <div class="grid-inner row align-items-center">
-                      <div class="col-lg-6">
-                        <div class="entry-image"> <a href="#"><img src="one-page/images/blog/2.jpg"
-                              alt="Paris"></a> </div>
-                      </div>
-                      <div class="col-lg-6 mt-3 mt-lg-0"> <span class="before-heading font-normal">Inside
-                          Scoops</span>
-                        <div class="entry-title nott">
-                          <h3 class="font-weight-normal"><a href="#">The New
-                              YouTube Economy unfolds itself</a></h3>
-                        </div>
-                        <div class="entry-content"> <a href="#" class="more-link">Read
-                            more <i class="icon-angle-right"></i></a> </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="entry col-md-6">
-                    <div class="grid-inner row align-items-center">
-                      <div class="col-lg-6">
-                        <div class="entry-image"> <a href="#"><img src="one-page/images/blog/3.jpg"
-                              alt="Paris"></a> </div>
-                      </div>
-                      <div class="col-lg-6 mt-3 mt-lg-0"> <span class="before-heading font-normal">Video
-                          Blog</span>
-                        <div class="entry-title nott">
-                          <h3 class="font-weight-normal"><a href="#">Kicking Off
-                              Design Party in Style</a></h3>
-                        </div>
-                        <div class="entry-content"> <a href="#" class="more-link">Read
-                            more <i class="icon-angle-right"></i></a> </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="entry col-md-6">
-                    <div class="grid-inner row align-items-center">
-                      <div class="col-lg-6">
-                        <div class="entry-image"> <a href="#"><img src="one-page/images/blog/4.jpg"
-                              alt="Paris"></a> </div>
-                      </div>
-                      <div class="col-lg-6 mt-3 mt-lg-0"> <span class="before-heading font-normal">Inspiration</span>
-                        <div class="entry-title nott">
-                          <h3 class="font-weight-normal"><a href="#">Top Ten
-                              Signs You're a Designer</a></h3>
-                        </div>
-                        <div class="entry-content"> <a href="#" class="more-link">Read
-                            more <i class="icon-angle-right"></i></a> </div>
-                      </div>
+                <div id="section-blog" class="page-section">
+                  <h2 class="text-center text-uppercase font-weight-light ls3 font-body">Recently
+                    From the Blog</h2>
+                  <div class="container topmargin-lg clearfix">
+                    <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget"
+                      data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000"
+                      data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4"
+                      data-items-lg="5" data-items-xl="6">
+                      <div class="oc-item"><a href="#"><img src="images/clients/1.png"
+                            alt="Clients"></a></div>
+                      <div class="oc-item"><a href="#"><img src="images/clients/2.png"
+                            alt="Clients"></a></div>
+                      <div class="oc-item"><a href="#"><img src="images/clients/3.png"
+                            alt="Clients"></a></div>
+                      <div class="oc-item"><a href="#"><img src="images/clients/4.png"
+                            alt="Clients"></a></div>
+                      <div class="oc-item"><a href="#"><img src="images/clients/5.png"
+                            alt="Clients"></a></div>
+                      <div class="oc-item"><a href="#"><img src="images/clients/6.png"
+                            alt="Clients"></a></div>
+                      <div class="oc-item"><a href="#"><img src="images/clients/7.png"
+                            alt="Clients"></a></div>
+                      <div class="oc-item"><a href="#"><img src="images/clients/8.png"
+                            alt="Clients"></a></div>
+                      <div class="oc-item"><a href="#"><img src="images/clients/9.png"
+                            alt="Clients"></a></div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="container topmargin-lg clearfix">
-              <div id="oc-clients" class="owl-carousel topmargin image-carousel carousel-widget"
-                data-margin="80" data-loop="true" data-nav="false" data-autoplay="5000"
-                data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4"
-                data-items-lg="5" data-items-xl="6">
-                <div class="oc-item"><a href="#"><img src="images/clients/1.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/2.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/3.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/4.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/5.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/6.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/7.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/8.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/9.png"
-                      alt="Clients"></a></div>
-                <div class="oc-item"><a href="#"><img src="images/clients/10.png"
-                      alt="Clients"></a></div>
-              </div>
-            </div>
-          </div>
-          <div id="section-contact" class="page-section pt-0">
-            <div class="row mx-0 bottommargin-lg align-items-stretch">
-              <div class="col-lg-8 col-md-6 d-none d-md-block px-0">
-                <div class="gmap h-100" data-address="Melbourne, Australia" data-maptype="ROADMAP"
-                  data-zoom="14" data-markers="[{ address: &quot;Melbourne, Australia&quot;, html: &quot;Melbourne, Australia&quot;, icon:{ image: &quot;one-page/images/icons/map-icon-red.png&quot;, iconsize: [32, 32], iconanchor: [14,44] } }]"
-                  data-styles="[{&quot;featureType&quot;:&quot;all&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:36},{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;all&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;all&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:17},{&quot;weight&quot;:1.2}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;administrative.country&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.country&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.country&quot;,&quot;elementType&quot;:&quot;labels.text&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;administrative.locality&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;},{&quot;saturation&quot;:&quot;-100&quot;},{&quot;lightness&quot;:&quot;30&quot;}]},{&quot;featureType&quot;:&quot;administrative.neighborhood&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;administrative.land_parcel&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;},{&quot;gamma&quot;:&quot;0.00&quot;},{&quot;lightness&quot;:&quot;74&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;landscape.man_made&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;lightness&quot;:&quot;3&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:21}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:29},{&quot;weight&quot;:0.2}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:18}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:19}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:17}]}]"></div>
-              </div>
-              <div class="col-lg-4 col-md-6" style="background-color: #F5F5F5;">
-                <div class="col-padding">
-                  <h3 class="font-body font-weight-normal ls1">Our Headquarters</h3>
-                  <div style="font-size: 16px; line-height: 1.7;">
-                    <address style="line-height: 1.7;"> <strong>North America:</strong><br>
-                      795 Folsom Ave, Suite 600<br>
-                      San Francisco, CA 94107<br>
-                    </address>
-                    <div class="clear topmargin-sm"></div>
-                    <address style="line-height: 1.7;"> <strong>Europe:</strong><br>
-                      795 Folsom Ave, Suite 600<br>
-                      San Francisco, CA 94107<br>
-                    </address>
-                    <div class="clear topmargin"></div>
-                    <abbr title="Phone Number"><strong>Phone:</strong></abbr>
-                    (1) 8547 632521<br>
-                    <abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752
-                    1433<br>
-                    <abbr title="Email Address"><strong>Email:</strong></abbr>
-                    info@canvas.com </div>
-                </div>
-              </div>
-            </div>
-            <div class="container clearfix">
-              <div class="mx-auto topmargin" style="max-width: 850px;">
-                <div class="form-widget">
-                  <div class="form-result"></div>
-                  <form class="row mb-0" id="template-contactform" name="template-contactform"
-                    action="include/form.php" method="post">
-                    <div class="form-process">
-                      <div class="css3-spinner">
-                        <div class="css3-spinner-scale-ripple">
-                          <div></div>
-                          <div></div>
-                          <div></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 mb-4"> <input id="template-contactform-name"
-                        name="template-contactform-name" value="" class="sm-form-control border-form-control required"
-                        placeholder="Name" type="text"> </div>
-                    <div class="col-md-6 mb-4"> <input id="template-contactform-email"
-                        name="template-contactform-email" value="" class="required email sm-form-control border-form-control"
-                        placeholder="Email Address" type="email"> </div>
-                    <div class="w-100"></div>
-                    <div class="col-md-4 mb-4"> <input id="template-contactform-phone"
-                        name="template-contactform-phone" value="" class="sm-form-control border-form-control"
-                        placeholder="Phone" type="text"> </div>
-                    <div class="col-md-8 mb-4"> <input id="template-contactform-subject"
-                        name="subject" value="" class="required sm-form-control border-form-control"
-                        placeholder="Subject" type="text"> </div>
-                    <div class="w-100"></div>
-                    <div class="col-12 mb-4"> <textarea class="required sm-form-control border-form-control"
+                <div id="section-contact" class="page-section pt-0">
+                  <div class="container clearfix">
+                    <div class="mx-auto topmargin" style="max-width: 850px;">
+                      <div class="form-widget">
+                        <div class="form-result"></div>
+                        <form class="row mb-0" id="template-contactform" name="template-contactform"
+                          action="include/form.php" method="post">
+                          <div class="form-process">
+                            <div class="css3-spinner">
+                              <div class="css3-spinner-scale-ripple">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-4"> <input id="template-contactform-name"
+                              name="template-contactform-name" value="" class="sm-form-control border-form-control required"
+                              placeholder="Name" type="text"> </div>
+                          <div class="col-md-6 mb-4"> <input id="template-contactform-email"
+                              name="template-contactform-email" value="" class="required email sm-form-control border-form-control"
+                              placeholder="Email Address" type="email"> </div>
+                          <div class="w-100"></div>
+                          <div class="col-md-4 mb-4"> <input id="template-contactform-phone"
+                              name="template-contactform-phone" value="" class="sm-form-control border-form-control"
+                              placeholder="Phone" type="text"> </div>
+                          <div class="col-md-8 mb-4"> <input id="template-contactform-subject"
+                              name="subject" value="" class="required sm-form-control border-form-control"
+                              placeholder="Subject" type="text"> </div>
+                          <div class="w-100"></div>
+                          <div class="col-12 mb-4"> <textarea class="required sm-form-control border-form-control"
 id="template-contactform-message" name="template-contactform-message" rows="7" cols="30"
 placeholder="Your Message"></textarea> </div>
-                    <div class="col-12 center mb-4"> <button class="button button-border button-circle font-weight-medium ml-0 topmargin-sm"
-                        type="submit" id="template-contactform-submit" name="template-contactform-submit"
-                        value="submit">Send Message</button> <br>
-                      <small style="display: block; font-size: 13px; margin-top: 15px;">We'll
-                        do our best to get back to you within 6-8 working hours.</small>
+                          <div class="col-12 center mb-4"> <button class="button button-border button-circle font-weight-medium ml-0 topmargin-sm"
+                              type="submit" id="template-contactform-submit" name="template-contactform-submit"
+                              value="submit">Send Message</button> <br>
+                            <small style="display: block; font-size: 13px; margin-top: 15px;">We'll
+                              do our best to get back to you within 6-8 working
+                              hours.</small> </div>
+                          <div class="w-100"></div>
+                          <div class="col-12 d-none"> <input id="template-contactform-botcheck"
+                              name="template-contactform-botcheck" value="" class="sm-form-control"
+                              type="text"> </div>
+                          <input name="prefix" value="template-contactform-" type="hidden">
+                        </form>
+                      </div>
                     </div>
-                    <div class="w-100"></div>
-                    <div class="col-12 d-none"> <input id="template-contactform-botcheck"
-                        name="template-contactform-botcheck" value="" class="sm-form-control"
-                        type="text"> </div>
-                    <input name="prefix" value="template-contactform-" type="hidden">
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>
